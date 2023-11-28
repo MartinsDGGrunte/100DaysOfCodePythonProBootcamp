@@ -12,7 +12,8 @@
 - [x] Day 9: Dictionaries, Nesting
 - [x] Day 10: Functions With Outputs
 - [ ] Day 11: Blackjack Capstone Project
-- [ ] Day 12: Scope & Number Guessing Game
+- [x] Day 12: Scope & Number Guessing Game
+- [x] Day 13: Debugging
 
 # Table of Contents
 
