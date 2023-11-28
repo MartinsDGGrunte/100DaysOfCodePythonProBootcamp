@@ -11,6 +11,8 @@
 - [x] Day 8: Function Parameters and Caesar Cipher
 - [x] Day 9: Dictionaries, Nesting
 - [x] Day 10: Functions With Outputs
+- [ ] Day 11: Blackjack Capstone Project
+- [ ] Day 12: Scope & Number Guessing Game
 
 # Table of Contents
 
@@ -53,3 +55,5 @@ chosen_function = function_dictionary["key1"]
 # Executing the function
 chosen_function(parameter_1_of_function_1, parameter_2_of_function_1, ...)
 ```
+
+
