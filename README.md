@@ -1,6 +1,7 @@
 # 100 Days Of Code Python Pro Bootcamp
 
 # Checklist
+***Beginner***
 - [x] Day 1: Working With Variables in Python to Manage Data.
 - [x] Day 2: Understanding Data Types And How To Manipulate Strings
 - [x] Day 3: Control Flow And Logical Operators
@@ -14,6 +15,11 @@
 - [ ] Day 11: Blackjack Capstone Project
 - [x] Day 12: Scope & Number Guessing Game
 - [x] Day 13: Debugging
+- [x] Day 14: Higher - Lower Game Project
+***Intermediate***
+- [ ] Day 15: Local Development Environment Setup & Coffee Machine 
+
+
 
 # Table of Contents
 
