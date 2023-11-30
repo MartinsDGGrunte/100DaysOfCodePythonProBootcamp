@@ -18,7 +18,7 @@
 - [x] Day 14: Higher - Lower Game Project
 
 ***Intermediate***
-- [ ] Day 15: Local Development Environment Setup & Coffee Machine 
+- [x] Day 15: Local Development Environment Setup & Coffee Machine 
 
 
 
