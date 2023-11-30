@@ -16,6 +16,7 @@
 - [x] Day 12: Scope & Number Guessing Game
 - [x] Day 13: Debugging
 - [x] Day 14: Higher - Lower Game Project
+
 ***Intermediate***
 - [ ] Day 15: Local Development Environment Setup & Coffee Machine 
 
@@ -30,7 +31,7 @@
 # Day 10: Functions With Inputs
 
 ## 103: Docstrings
-If we wan't to create documentation for the funcitons that we create we can use docstrings. 
+If we want to create documentation for the functions that we create we can use docstrings. 
 Docstrings come straight after function declaration and we use `""" .. """` syntax.
 
 I.e. 
