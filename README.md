@@ -28,6 +28,8 @@
 1. [Day 10: Functions With Outputs](#day-10-functions-with-inputs)
     - [Docstrings](#103-docstrings)
     - [Combining Dictionaries and Functions](#104-combining-dictionaries-and-functions)
+2. [Day 16: Object-Oriented Programming (OOP)](#day-16-object-oriented-programming-oop)
+    - [Why do we need OOP?](#146-why-do-we-need-oop)
 
 # Day 10: Functions With Inputs
 
@@ -37,7 +39,7 @@ Docstrings come straight after function declaration and we use `""" .. """` synt
 
 I.e. 
 ```python
-def sum(num1, num2):
+def some_sum(num1, num2):
     # docstring
     """sum is a function which takes two parameters - num1 and num2 - and returns the sum of both"""
 
@@ -50,6 +52,12 @@ def sum(num1, num2):
 We can store functions in dictionaries in the following way:
 
 ```python
+def function_1():
+   pass
+
+def function_2():
+   pass
+
 function_dictionary = {
     "key1": function_1,
     "key2": function_2,
@@ -59,10 +67,30 @@ function_dictionary = {
 In this form we can see that we don't use `()` or function parameters. We can access the functions in the same way that we have done previously:
 
 ```python
+def function_1():
+   pass
+
+def function_2():
+   pass
+
+function_dictionary = {
+    "key1": function_1,
+    "key2": function_2,
+}
+
 chosen_function = function_dictionary["key1"]
 
 # Executing the function
-chosen_function(parameter_1_of_function_1, parameter_2_of_function_1, ...)
+chosen_function()
 ```
 
+# Day 16: Object-Oriented Programming (OOP)
+
+## 146: Why do we need OOP
+1. OOP can be used for dividing a more complex task into smaller portions that can be resolved by different teams
+2. OOP improves the efficiency of the program development compared to Spaghetti-Like ***Procedural Programming***
+3. In case of OOP we can make the code more reusable, in case we wanted to create a similar project in the future.
+4. OOP is modelled in a way that we create classes (roles, partners, stakeholders) which contain *attributes* and *methods*.
+   * *attributes* are properties that this class has. (what do we have?)
+   * *methods* are functions that represent what this role can do. (what can we do?)
 
