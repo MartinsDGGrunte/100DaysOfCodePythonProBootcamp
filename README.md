@@ -18,7 +18,8 @@
 - [x] Day 14: Higher - Lower Game Project
 
 ***Intermediate***
-- [x] Day 15: Local Development Environment Setup & Coffee Machine 
+- [x] Day 15: Local Development Environment Setup & Coffee Machine
+- [ ] Day 16: Object-Oriented Programming
 
 
 
