@@ -19,7 +19,10 @@
 
 ***Intermediate***
 - [x] Day 15: Local Development Environment Setup & Coffee Machine
-- [ ] Day 16: Object-Oriented Programming
+- [x] Day 16: Object-Oriented Programming
+- [x] Day 17: Benefits of OOP
+- [ ] Day 19: Instances, State and Higher Order Functions
+- [ ] Day 25: Working with CSV Data and the Pandas library
 
 
 
@@ -30,6 +33,10 @@
     - [Combining Dictionaries and Functions](#104-combining-dictionaries-and-functions)
 2. [Day 16: Object-Oriented Programming (OOP)](#day-16-object-oriented-programming-oop)
     - [Why do we need OOP?](#146-why-do-we-need-oop)
+3. [Day 25: Working with CSV Data and the Pandas Library](#day-25-working-with-csv-data-and-the-pandas-library)
+    - [Reading CSV Data in Python](#228-reading-csv-data-in-python)
+      - [Opening Files in Python](#opening-files-in-python)
+    - [DataFrames & Series: Working With Rows & Columns](#229-dataframes--series-working-with-rows--columns)
 
 # Day 10: Functions With Inputs
 
@@ -93,4 +100,46 @@ chosen_function()
 4. OOP is modelled in a way that we create classes (roles, partners, stakeholders) which contain *attributes* and *methods*.
    * *attributes* are properties that this class has. (what do we have?)
    * *methods* are functions that represent what this role can do. (what can we do?)
+
+
+
+
+# Day 25: Working with CSV Data and the Pandas Library
+
+## 228: Reading CSV Data in Python
+
+### Opening files in Python
+We can open files in Python and populate contents in a list in the following way:
+
+```python
+with open("filepath.extension") as file:
+    data = file.readlines()
+```
+
+When working with .csv files we can alternatively use `csv` library for reading data:
+
+```python
+import csv
+with open("filepath.extension") as data_file:
+    data = csv.reader(data_file)
+```
+
+We can also use `pandas` library to read csv files. The `pandas` documentation is available [here](https://pandas.pydata.org/docs/index.html)
+
+```python
+import pandas
+data = pandas.read_csv("filepath.extension")
+print(data)
+```
+
+
+## 229: DataFrames & Series: Working With Rows & Columns
+
+| Type                                                                   | Definition                                           |
+|------------------------------------------------------------------------|------------------------------------------------------|
+| [***DataFrame***](https://pandas.pydata.org/docs/reference/frame.html) | Represents the whole table                           |
+| [***Series***](https://pandas.pydata.org/docs/reference/series.html)   | Represents the row or column (almost as a List type) |
+
+
+
 
