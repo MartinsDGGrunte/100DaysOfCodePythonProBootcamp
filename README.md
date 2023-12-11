@@ -140,11 +140,6 @@ print(data)
 | [***DataFrame***](https://pandas.pydata.org/docs/reference/frame.html) | Represents the whole table                           |
 | [***Series***](https://pandas.pydata.org/docs/reference/series.html)   | Represents the row or column (almost as a List type) |
 
-
-
-
-
-
 # Day 26: List Comprehension
 
 ## 235: How to create lists using List Comprehension
@@ -179,3 +174,6 @@ new_list = [n for n in numbers if n < 3]
 * Pandas also has an inbuilt method `iterrows()` which iterates the dictionary by rows not columns. For examples see:
   [Lecture 243 Code](/Lessons/Day26/L243main.py)
 
+
+
+# Day 27: Tkinter *args, **kwargs and creating GUI programs
