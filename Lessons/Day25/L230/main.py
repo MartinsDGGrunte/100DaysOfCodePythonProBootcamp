@@ -17,8 +17,8 @@ for color in squirrel_fur_color_data:
         black += 1
 
 data = {
-    "Fur Color": ["gray", "red", "black"],
-    "Count": [gray, cinnamon, black]
+    'Fur Color': ['gray', 'red', 'black'],
+    'Count': [gray, cinnamon, black]
 }
 
 end_dataframe = pandas.DataFrame(data)

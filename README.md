@@ -22,7 +22,8 @@
 - [x] Day 16: Object-Oriented Programming
 - [x] Day 17: Benefits of OOP
 - [ ] Day 19: Instances, State and Higher Order Functions
-- [ ] Day 25: Working with CSV Data and the Pandas library
+- [x] Day 25: Working with CSV Data and the Pandas library
+- [ ] Day 26: List Comprehension and the NATO alphabet
 
 
 
@@ -37,6 +38,9 @@
     - [Reading CSV Data in Python](#228-reading-csv-data-in-python)
       - [Opening Files in Python](#opening-files-in-python)
     - [DataFrames & Series: Working With Rows & Columns](#229-dataframes--series-working-with-rows--columns)
+4. [Day 26: List Comprehension](#day-26-list-comprehension)
+    - [How to create lists using List Comprehension](#235-how-to-create-lists-using-list-comprehension)
+    - [How to iterate over Pandas DataFrame](#243-how-to-iterate-over-pandas-dataframe)
 
 # Day 10: Functions With Inputs
 
@@ -101,9 +105,6 @@ chosen_function()
    * *attributes* are properties that this class has. (what do we have?)
    * *methods* are functions that represent what this role can do. (what can we do?)
 
-
-
-
 # Day 25: Working with CSV Data and the Pandas Library
 
 ## 228: Reading CSV Data in Python
@@ -132,7 +133,6 @@ data = pandas.read_csv("filepath.extension")
 print(data)
 ```
 
-
 ## 229: DataFrames & Series: Working With Rows & Columns
 
 | Type                                                                   | Definition                                           |
@@ -142,4 +142,40 @@ print(data)
 
 
 
+
+
+
+# Day 26: List Comprehension
+
+## 235: How to create lists using List Comprehension
+* List Comprehension is a unique task for Python Programming Language, and many of the other programming languages don't
+even have this feature.
+* List Comprehension is mainly used to save up space when writing code.
+
+The universal idea behind list comprehension can be expressed using the following code:
+```python
+numbers = [1, 2, 3]
+new_list = [n + 1 for n in numbers]
+# Where:
+# n + 1 is condition and how the input variable will be modified
+# n is the variable that will be modified
+# numbers is the list, which contains all variables "n" that will be modified using the condition "n + 1"
+```
+
+* List comprehension can work not only with lists, but also with tuples, strings, ranges or any other sequential data
+type
+* We can also use conditional formatting in List Comprehension. We can achieve this in the following way:
+```python
+numbers = [1, 2, 3]
+new_list = [n for n in numbers if n < 3]
+# Where:
+# n is the input variable
+# numbers is the list, which contains all variables "n" that will be added to the new_list if the condition is met
+# n < 3 is the filtering condition 
+```
+
+## 243: How to iterate over Pandas DataFrame
+* We can loop through DataFrame by using the same approaches that we use on dictionaries.
+* Pandas also has an inbuilt method `iterrows()` which iterates the dictionary by rows not columns. For examples see:
+  [Lecture 243 Code](/Lessons/Day26/L243main.py)
 
