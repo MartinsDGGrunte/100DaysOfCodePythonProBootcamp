@@ -23,7 +23,8 @@
 - [x] Day 17: Benefits of OOP
 - [ ] Day 19: Instances, State and Higher Order Functions
 - [x] Day 25: Working with CSV Data and the Pandas library
-- [ ] Day 26: List Comprehension and the NATO alphabet
+- [x] Day 26: List Comprehension and the NATO alphabet
+- [ ] Day 27: Tkinter *args, **kwargs and creating GUI programs
 
 
 
