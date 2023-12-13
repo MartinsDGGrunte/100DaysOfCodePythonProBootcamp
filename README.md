@@ -24,7 +24,8 @@
 - [ ] Day 19: Instances, State and Higher Order Functions
 - [x] Day 25: Working with CSV Data and the Pandas library
 - [x] Day 26: List Comprehension and the NATO alphabet
-- [ ] Day 27: Tkinter *args, **kwargs and creating GUI programs
+- [x] Day 27: Tkinter *args, **kwargs and creating GUI programs
+- [ ] Day 28: Tkinter, Dynamic Typing and the Pomodoro Clock
 
 
 
@@ -175,6 +176,4 @@ new_list = [n for n in numbers if n < 3]
 * Pandas also has an inbuilt method `iterrows()` which iterates the dictionary by rows not columns. For examples see:
   [Lecture 243 Code](/Lessons/Day26/L243main.py)
 
-
-
-# Day 27: Tkinter *args, **kwargs and creating GUI programs
+# Day 28: Tkinter, Dynamic Typing and the Pomodoro Clock 
