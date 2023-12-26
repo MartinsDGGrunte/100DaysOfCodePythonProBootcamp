@@ -1,7 +1,30 @@
 from tkinter import *
+from tkinter import messagebox
+
+
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
+
+
+def get_values_from_entries():
+    entered_website = website_entry.get()
+    entered_username_or_email = email_username_entry.get()
+    entered_password = password_entry.get()
+
+    message_for_askokcancel = ("Username: " + entered_username_or_email + "\nPassword: " + entered_password
+                               + "\nAre the entered values correct?")
+
+    if entered_username_or_email == "" or entered_password == "":
+        messagebox.showerror(message="You must fill all fields!")
+    else:
+        is_ok = messagebox.askokcancel(title=entered_website, message=message_for_askokcancel)
+        if is_ok:
+            with open("passwords.txt", "a") as password_file:
+                end_structure = entered_website + " | " + entered_username_or_email + " | " + entered_password + "\n"
+                password_file.write(end_structure)
+            website_entry.delete(0, END)
+            password_entry.delete(0, END)
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -36,6 +59,7 @@ email_username_label.grid(column=0, row=2)
 # create Entry for "Email/Username"
 email_username_entry = Entry(width=35)
 email_username_entry.grid(column=1, row=2, columnspan=2)
+email_username_entry.insert(0, "martins.g.grunte@gmail.com")
 
 # create Label for "Password"
 password_label = Label(text="Password:")
@@ -50,7 +74,7 @@ generate_password_button = Button(text="Generate Password", width=13)
 generate_password_button.grid(column=2, row=3)
 
 # create Add Button
-add_button = Button(text="Add", width=33)
+add_button = Button(text="Add", width=33, command=get_values_from_entries)
 add_button.grid(column=1, row=4, columnspan=2)
 
 # create a closing loop

@@ -1,4 +1,5 @@
-import random, string
+import random
+import string
 
 # List of English language letters
 letters = list(string.ascii_letters)
