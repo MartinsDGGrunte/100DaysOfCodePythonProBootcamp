@@ -12,7 +12,7 @@
 - [x] Day 8: Function Parameters and Caesar Cipher
 - [x] Day 9: Dictionaries, Nesting
 - [x] Day 10: Functions With Outputs
-- [ ] Day 11: Blackjack Capstone Project
+- [x] Day 11: Blackjack Capstone Project
 - [x] Day 12: Scope & Number Guessing Game
 - [x] Day 13: Debugging
 - [x] Day 14: Higher - Lower Game Project
@@ -21,11 +21,13 @@
 - [x] Day 15: Local Development Environment Setup & Coffee Machine
 - [x] Day 16: Object-Oriented Programming
 - [x] Day 17: Benefits of OOP
-- [ ] Day 19: Instances, State and Higher Order Functions
+- [x] Day 19: Instances, State and Higher Order Functions
 - [x] Day 25: Working with CSV Data and the Pandas library
 - [x] Day 26: List Comprehension and the NATO alphabet
 - [x] Day 27: Tkinter *args, **kwargs and creating GUI programs
 - [x] Day 28: Tkinter, Dynamic Typing and the Pomodoro Clock
+- [x] Day 29: Password Manager GUI
+- [ ] Day 30: Errors, Exceptions and JSON Data
 
 
 
@@ -176,4 +178,21 @@ new_list = [n for n in numbers if n < 3]
 * Pandas also has an inbuilt method `iterrows()` which iterates the dictionary by rows not columns. For examples see:
   [Lecture 243 Code](/Lessons/Day26/L243main.py)
 
-# Day 28: Tkinter, Dynamic Typing and the Pomodoro Clock 
+# Day 30: Errors, Exceptions and JSON Data
+
+## 271: Catching Exceptions - try, catch, except, finally
+
+```python
+try:
+    # Something that might cause an exception
+    pass
+except:
+   # Do this if there was an exception
+    pass
+else:
+   # Do this if there were no exceptions
+    pass
+finally:
+   # Do this no matter what happens
+    pass
+```
