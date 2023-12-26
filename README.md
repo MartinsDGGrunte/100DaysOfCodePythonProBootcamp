@@ -46,7 +46,7 @@
     - [How to create lists using List Comprehension](#235-how-to-create-lists-using-list-comprehension)
     - [How to iterate over Pandas DataFrame](#243-how-to-iterate-over-pandas-dataframe)
 5. [Day 30: Errors, Exceptions and JSON Data](#day-30-errors-exceptions-and-json-data)
-    - [Catching Exceptions - try, catch, except, finally](#271-catching-exceptions---try-catch-except-finally)Up
+    - [Catching Exceptions - try, catch, except, finally](#271-catching-exceptions---try-catch-except-finally)
 
 # Day 10: Functions With Inputs
 
