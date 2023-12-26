@@ -25,7 +25,7 @@
 - [x] Day 25: Working with CSV Data and the Pandas library
 - [x] Day 26: List Comprehension and the NATO alphabet
 - [x] Day 27: Tkinter *args, **kwargs and creating GUI programs
-- [ ] Day 28: Tkinter, Dynamic Typing and the Pomodoro Clock
+- [x] Day 28: Tkinter, Dynamic Typing and the Pomodoro Clock
 
 
 
